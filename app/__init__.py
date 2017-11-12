@@ -6,6 +6,7 @@ from .main import main as main_blueprint
 db = SQLAlchemy()
 
 
+
 def create_app():
     app = Flask(__name__)
     app.config.from_object(config)
