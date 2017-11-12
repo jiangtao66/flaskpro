@@ -4,6 +4,7 @@ from flask_script import Manager, Shell
 
 from app.models import registrations, Student, Class, db
 from app import create_app
+from flask_migrate import Migrate, MigrateCommand
 
 app = create_app()
 
