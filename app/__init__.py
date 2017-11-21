@@ -1,10 +1,8 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from config import config
 from .main import main as main_blueprint
-
+from config import config
 db = SQLAlchemy()
-
 
 
 def create_app():
